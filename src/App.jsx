@@ -5,15 +5,16 @@ import sunshineHeartIcon from './assets/sunshine-heart-icon.svg'
 import wavyLinesIcon from './assets/wavy-lines-icon.svg'
 // import viteLogo from '/vite.svg'
 // import './App.css'
-import heroImage from './assets/hero-image.png'
+
+
+import Hero from './components/Hero'
+
 import './styles/main.scss';
 
 
 function App() {
 
-  function handleClick() {
-    console.log('handle click')
-  }
+ 
 
   return (
     <div className="container">
@@ -22,15 +23,9 @@ function App() {
         <img src={sunriseAlarm} />
       </header>
 
-      <div className="hero">
-        <div className="hero-text">
-          <h1>Rise & Shine</h1>
-          <p>Coffee cortado, qui beans galao froth to go. Blue mountain et single origin aged flavour variety affogato.</p>
-          <button className="hero-cta" onClick={handleClick}>
-            Learn More
-          </button>
-        </div> 
-      </div>
+      <Hero />
+
+      
 
       <div className="three-col-container">
         <h2 className="heading">Your Heading Here</h2>
