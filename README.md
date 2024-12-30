@@ -1,8 +1,7 @@
-# React + Vite
+# Hatch Take Home Assignment
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Hatch take home assignment built with React + Vite
 
-Currently, two official plugins are available:
+npm install / npm run dev
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Tristan Gruener (tristan.gruener@gmail.com)
