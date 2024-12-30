@@ -53,14 +53,20 @@ header {
         }
 
         .hero-cta {
-            border: 1px solid #3d5c97;
-            background-color: #3d5c97;
+            border: 1px solid #5a6f9f;
+            background-color: #5a6f9f;
             text-transform: uppercase;
             color: #FFF;
-            width: 166px;
-            height: 50px;
+            width: 180px;
+            height: 40px;
             font-size: 12px;
             border-radius: 4px;
+            transition: .3s;
+
+            &:hover {
+                background-color: #FFF;
+                color: #5a6f9f;
+            }
         }
     }
 }

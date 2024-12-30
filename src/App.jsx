@@ -1,18 +1,14 @@
-import sunriseAlarm from './assets/sunrise-alarm.svg'
+import Header from './components/Header'
 import Hero from './components/Hero'
 import ThreeColContainer from './components/ThreeColContainer'
 
-import './styles/main.scss';
+import './styles/main.scss'
 
 function App() {
   return (
     <div className="container">
-      <header>
-        <img src={sunriseAlarm} />
-      </header>
-
+      <Header />
       <Hero />
-
       <ThreeColContainer />
     </div>
   )
