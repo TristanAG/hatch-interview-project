@@ -1,12 +1,12 @@
 import React from 'react'
 
-const Tile = ({ icon }) => {
+const Tile = ({ icon, text }) => {
     
     return (
         <div className="tile">
             <div className="content">
-            <img src={icon} />
-            <p>Text</p>
+                <img src={icon} />
+                <p className="tile-text">{text}</p>
             </div>
         </div>
     )
